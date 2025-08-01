@@ -1,0 +1,31 @@
+# Python virtual environments
+venv/
+aedtenv/
+.aedtenv/
+.aedtvenv/
+
+# Data and results
+data/
+*.csv
+!example_data.csv  
+
+# Model outputs and checkpoints
+models/
+*.pkl
+*.h5
+*.joblib
+
+# Python bytecode
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
