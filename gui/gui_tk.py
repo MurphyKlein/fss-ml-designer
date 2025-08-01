@@ -17,7 +17,7 @@ sys.path.append(str(Path(__file__).resolve().parent.parent))
 
 # ---- Import solver backend ----
 try:
-    from reverse.reverse_gui import inverse_design
+    from optimization.reverse_gui import inverse_design
 except ImportError as e:
     print("[Error] Couldn't import inverse_design from reverse.reverse_gui!")
     raise
